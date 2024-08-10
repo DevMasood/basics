@@ -106,7 +106,16 @@ container2.innerHTML = "Universe"
 body.appendChild(container2)
 
 
+//strings
+
+// "my location is warangal"
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+console.log(text.toUpperCase())
+let length = text.length;
+console.log(length)
 
 
 
-
+let text1 = "      Hello World!      ";
+let text2 = text1.trim();
+console.log(text2)
