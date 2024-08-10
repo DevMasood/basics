@@ -1,4 +1,7 @@
 
+//08-08-2024
+
+
 var a =1
 var b =2
 
@@ -40,7 +43,7 @@ var sunday = true
 //     alert('School WorkingDay')   
 // }
 
-
+//09-08-2024
 
 var timepass;
 // alert(timepass)
@@ -88,13 +91,21 @@ var para = document.createElement('p');
 para.textContent = "Lorem ipsum consectetur adipisicing elit. "
 container.appendChild(para)
 
-
+//10-08-2024
 
 var image = document.createElement('img')
 // image.src = './1.jpg'
 image.setAttribute('src', './1.jpg')
 image.setAttribute('alt', 'nature')
 container.appendChild(image)
+
+
+var container2 = document.createElement('div')
+container2.className = "container2"
+container2.innerHTML = "Universe"
+body.appendChild(container2)
+
+
 
 
 
