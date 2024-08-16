@@ -11,17 +11,17 @@ let btn = document.querySelector('.btn')
 let clr = document.querySelector('.color')
 // console.log(clr)
 
-btn.addEventListener("click", function(){
+// btn.addEventListener("click", function(){
 
-//random number
-// console.log(Math.floor(Math.random()*colors.length))
-let randomNumber = Math.floor(Math.random()*colors.length)
-console.log(randomNumber)
+// //random number
+// // console.log(Math.floor(Math.random()*colors.length))
+// let randomNumber = Math.floor(Math.random()*colors.length)
+// console.log(randomNumber)
 
-    // alert('you clicked me')
-    document.body.style.backgroundColor = colors[randomNumber]
-    clr.innerHTML = colors[randomNumber]
-})
+//     // alert('you clicked me')
+//     document.body.style.backgroundColor = colors[randomNumber]
+//     clr.innerHTML = colors[randomNumber]
+// })
 
 
 
@@ -29,30 +29,30 @@ console.log(randomNumber)
 
 
 //
- var displayCounter = document.getElementById('displayCounter')
- const increment = document.getElementById('increment')
- const decrement = document.getElementById('decrement')
- const reset = document.getElementById('reset')
- console.log(displayCounter,increment,decrement,reset)
+//  var displayCounter = document.getElementById('displayCounter')
+//  const increment = document.getElementById('increment')
+//  const decrement = document.getElementById('decrement')
+//  const reset = document.getElementById('reset')
+//  console.log(displayCounter,increment,decrement,reset)
 
-var count = 0
- increment.addEventListener('click', function(){
-    displayCounter.innerHTML = count++
-    if (count > 0){
-        console.log("hello",count)
-        displayCounter.style.backgroundColor ="green"
-     }
- })
- decrement.addEventListener('click', function(){
-    if(count < 0) {
-        displayCounter.style.backgroundColor = 'red'
-         }
+// var count = 0
+//  increment.addEventListener('click', function(){
+//     displayCounter.innerHTML = count++
+//     if (count > 0){
+//         console.log("hello",count)
+//         displayCounter.style.backgroundColor ="green"
+//      }
+//  })
+//  decrement.addEventListener('click', function(){
+//     if(count < 0) {
+//         displayCounter.style.backgroundColor = 'red'
+//          }
          
-    displayCounter.innerHTML = count--
- })
- reset.addEventListener('click', function(){
-    displayCounter.innerHTML = 0
- })
+//     displayCounter.innerHTML = count--
+//  })
+//  reset.addEventListener('click', function(){
+//     displayCounter.innerHTML = 0
+//  })
 
 
  const fruits = ["apple", "orange", "cherry"];
@@ -75,8 +75,34 @@ const greet = (emp_name) => {
 console.log('Welcome to our Team' + ' ' + emp_name)
 }
 
-greet('Rahul')
-greet('Masood')
+// greet('Rahul')
+// greet('Masood')
 
-greet('Sai')
-greet('Deepthi')
+// greet('Sai')
+// greet('Deepthi')
+
+
+
+// const btn_new = document.getElementById('btn_new')
+// btn_new.addEventListener('click', function(){
+//    // alert('boooom')
+//    btn_new.classList.toggle('addColor')
+// })
+
+function add(a,b){
+  let c = a + b
+  console.log(c)
+  return c
+  
+}
+add(10,20)
+
+let arr = ['apple','banana','orange']
+let books = ["The Great Gatsby" ,"Invisible Man","The Road","Brave New World"]
+//forEach, map, filter
+books.filter((book)=> {
+   if(!book.includes('Great')) {
+      console.log(book)
+      return book
+   }
+})
