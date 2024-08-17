@@ -51,43 +51,43 @@ const books = [
     { 
       name: "The Lord of the Rings", 
       category: "Fantasy", 
-      image: "https://example.com/the-lord-of-the-rings.jpg",
+      image: "https://m.media-amazon.com/images/I/51-SB14lpxL._AC_UF1000,1000_QL80_.jpg",
       price: 22.99,
       description: "An epic fantasy trilogy that chronicles the battle between good and evil in Middle-earth."
     },
     { 
       name: "Moby Dick", 
       category: "Fiction", 
-      image: "https://example.com/moby-dick.jpg",
+      image: "https://m.media-amazon.com/images/I/51-SB14lpxL._AC_UF1000,1000_QL80_.jpg",
       price: 8.99,
       description: "A thrilling tale of obsession and revenge as Captain Ahab pursues the elusive white whale, Moby Dick."
     },
     { 
       name: "Brave New World", 
       category: "Fiction", 
-      image: "https://example.com/brave-new-world.jpg",
+      image: "https://m.media-amazon.com/images/I/51-SB14lpxL._AC_UF1000,1000_QL80_.jpg",
       price: 12.49,
       description: "A dystopian novel that explores a future where technology and conditioning shape every aspect of human life."
     }
   ];
-//   console.log(books.length, 'finding length')
-window.addEventListener('DOMContentLoaded',displayItems)
-const container = document.querySelector('.items')
-console.log(container)
-  function displayItems() {
-  let displayMenuItems =  books.map((book)=> {
-        // console.log(book)
-        return `<div class="item mr-5">
-            <img src="./images/bot.png" alt="">
-            <h1>Book Name</h1>
-            <div class="d-flex jusitfy-content-between w-100">
-                <p>Price</p>
-                <p>category</p>
-            </div>
-            <div>information</div>
 
-        </div>`
-    })
-    container.innerHTML = displayMenuItems.join(' ')
-  }
+// window.addEventListener('DOMContentLoaded',displayItems)
+// const container = document.querySelector('.items')
+
+//   function displayItems() {
+//   let displayMenuItems =  books.map((book)=> {
+//         // console.log(book)
+//         return `<div class="item mr-5">
+//             <img src=${book.image} alt="">
+//             <h1>${book.name}</h1>
+//             <div class="d-flex jusitfy-content-between w-100">
+//                 <p>${book.price}</p>
+//                 <p>category : <b>${book.category}</b></p>
+//             </div>
+//             <div>${book.description}</div>
+
+//         </div>`
+//     })
+//     container.innerHTML = displayMenuItems.join(' ')
+//   }
   
