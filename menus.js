@@ -75,7 +75,7 @@ window.addEventListener('DOMContentLoaded',displayItems)
 const container = document.querySelector('.items')
 console.log(container)
   function displayItems() {
-    books.map((book)=> {
+  let displayMenuItems =  books.map((book)=> {
         // console.log(book)
         return `<div class="item mr-5">
             <img src="./images/bot.png" alt="">
@@ -88,5 +88,6 @@ console.log(container)
 
         </div>`
     })
+    container.innerHTML = displayMenuItems.join(' ')
   }
-  container.innerHTML = displayItems
+  
