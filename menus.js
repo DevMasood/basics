@@ -91,3 +91,26 @@ const books = [
 //     container.innerHTML = displayMenuItems.join(' ')
 //   }
   
+
+// window.addEventListener('DOMContentLoaded', displayItems)
+
+
+// function displayItems() {
+//     let displayMenu = books.map((book)=> {
+//         console.log(book)
+//         return `<div class="item mr-5">
+//              <img src=${book.image} alt="">
+//              <h1>${book.name}</h1>
+//              <div class="d-flex jusitfy-content-between w-100">
+//                  <p>${book.price}</p>
+//                  <p>category : <b>${book.category}</b></p>
+//              </div>
+//              <div>${book.description}</div>
+
+//          </div>`
+//     })
+
+// const items = document.querySelector('.items')
+// items.innerHTML = displayMenu.join(' ')
+
+}

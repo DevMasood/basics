@@ -3,61 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-<style>
-    .listItems{
-        display: flex;
-  flex-wrap: wrap;
-  gap: 20px; /* Adjust spacing between items */ }
-    .listItems li{
-        list-style-type: none;
-    }
-    .listItems a{
-        display: inline-block;
-        margin-right: 15px;
-        background-color: aqua;
-        color: #000;
-        padding: 10px;
-        text-decoration: none;
-    }
-    img{
-        width: 100px;
-    }
-    .container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px; /* Spacing between items */
-}
-
-.item {
-  width: calc(33.333% - 20px); /* 33.333% width for 3 items per row, minus the gap */
-  box-sizing: border-box; /* Ensures padding/margin are included in width */
-}
-</style>
-
+    <title>Book Categories</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <ul class="listItems">
-            <li>
-                <a href="#">Fiction</a>
-            </li>
-        <li> <a href="#">Fantacy</a></li>
-        <li><a href="#">Romance</a></li>
-        <li><a href="#">Thriller</a></li>
-        <li><a href="#">Classic</a></li>
+        <h1>Book Categories</h1>
+        <div class="buttons">
+            <button onclick="filterBooks('all')">All</button>
+            <button onclick="filterBooks('fiction')">Fiction</button>
+            <button onclick="filterBooks('non-fiction')">Non-Fiction</button>
+            <button onclick="filterBooks('science')">Science</button>
+            <button onclick="filterBooks('history')">History</button>
+        </div>
+        <ul class="book-list">
+            <li class="book-item fiction">"The Great Gatsby" by F. Scott Fitzgerald</li>
+            <li class="book-item fiction">"1984" by George Orwell</li>
+            <li class="book-item non-fiction">"Sapiens" by Yuval Noah Harari</li>
+            <li class="book-item science">"A Brief History of Time" by Stephen Hawking</li>
+            <li class="book-item history">"The Diary of Anne Frank" by Anne Frank</li>
+            <li class="book-item fiction">"To Kill a Mockingbird" by Harper Lee</li>
+            <li class="book-item non-fiction">"Educated" by Tara Westover</li>
+            <li class="book-item science">"The Selfish Gene" by Richard Dawkins</li>
+            <li class="book-item history">"Guns, Germs, and Steel" by Jared Diamond</li>
         </ul>
-        
     </div>
-    <div class="items d-flex container">
-        <!-- book start here -->
-        
-        <!-- book end here -->
-           <!-- book start here -->
-       
-        <!-- book end here -->
-    </div>
-    <script src="./menus.js"></script>
+
+   
 </body>
 </html>
