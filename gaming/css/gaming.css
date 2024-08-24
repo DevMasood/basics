@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.btn_containers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.score{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+}
+.score span:nth-child(2){
+color: rgb(5, 135, 22);
+}
+.score span:nth-child(1){
+    color: rgb(44, 44, 250);
+    }
+.btn{
+    width: 99px;
+    background: #0295c2;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    margin: 0;
+    padding: 10px;
+}
+.btn.btn_primary{
+    background: #db02cc;
+}
+.btn.reset{
+    background: #2e2d2e;
+}
+.gaming{
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
