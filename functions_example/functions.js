@@ -49,3 +49,33 @@ fruits.forEach(showFruits)
 function showFruits(fruit){
     console.log(fruit)
 }
+
+
+// setInterval( ()=> {
+   
+// } , 1000)
+
+const allBooks = [
+    "The Great Gatsby by F. Scott Fitzgerald",
+    "Great Expectations by Charles Dickens",
+    "The Great Alone by Kristin Hannah",
+    "Great by Choice by Jim Collins",
+    "The Great Influenza by John M. Barry",
+    "To Kill a Mockingbird by Harper Lee",
+    "1984 by George Orwell",
+    "Pride and Prejudice by Jane Austen",
+    "Moby Dick by Herman Melville",
+    "The Catcher in the Rye by J.D. Salinger"
+];
+console.log(allBooks)
+let newBooks;
+allBooks.filter((book)=> {
+     if(book.includes('Great')){
+       
+       
+         newBooks = book
+        console.log(newBooks)
+return newBooks
+    }
+})
+console.log(allBooks)
