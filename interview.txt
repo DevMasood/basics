@@ -1,0 +1,169 @@
+setTimeout allows us to run a function once after the interval of time. setInterval allows us to run a function repeatedly,
+
+The filter() method is an array method takes callback function as an argument and returns a new array filled with elements that pass a test provided by a callback function.
+
+
+The map() method is a built-in array method in JavaScript that creates a new array by calling a provided callback function on every element in the calling array. The map() method does not change the original array; instead, it returns a new array.
+
+
+
+'find method returns the value of the first element which passes the test'
+'find method returns the position of the first element which passes the test'
+The JavaScript method toString() converts an array to a string of (comma separated) array values.
+
+The pop() method removes the last element from an array:
+The push() method adds a new element to an array (at the end):
+The shift() method removes the first array element
+unshift() method adds a new element to an array (at the beginning),
+The concat() method creates a new array by merging (concatenating) existing arrays:
+
+
+
+The concat() method concatenates (joins) two or more arrays.
+
+prototype allows you to add new properties and methods to arrays.
+
+The pop() method removes (pops) the last element of an array.
+
+The sort() method sorts an array  :
+
+"async and await make promises easier to write"
+
+async makes a function return a Promise
+
+await makes a function wait for a Promise
+
+Destructuring is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+
+Template literals used to perform string interpolation.
+
+The rest parameter allows us to pass an indefinite number of parameters to a function and access them in an array.
+
+The JavaScript spread operator ( ... ) allows us to quickly copy all or some part of an existing array or object into another array or object.
+                               
+
+let: The variables declared using let keyword will be mutable, i.e., the values of the variable can be changed. It is similar to var keyword except that it provides block scoping.
+
+const: The variables declared using the const keyword are immutable and block-scoped. The value of the variables cannot be changed or re-assigned if they are declared by using the const keyword.
+
+ES6 features
+Let and const keywords.
+Default Parameters.
+Arrow functions.
+Template Literals.
+Object Literals.
+Rest and spread operators.
+Destructuring assignment.
+Modules, Classes, Generators, and iterators.
+Promises, and many more.
+
+Destructuring allow us to extract data from objects and arrays into separate variables.
+It allows us to extract smaller fragments from objects and arrays.
+
+(Immediately invoked function expressions)?  Self invoking function
+
+A set is a data structure that allows us to create a collection of unique values.
+
+Promises in ES6
+ES6 promises are the easiest way to work with asynchronous programming in JavaScript.
+Prior to ES6, there is the use of Callbacks for performing asynchronous programming.
+Promises are used to overcome the problem of Callback hell.
+Promises have mainly three states that are as follows:
+
+Pending: It is the initial state of every promise. It represents that the result has not been computed yet.
+Fulfilled: It represents the completion of an operation.
+Rejected: It represents the failure that occurs during computation.
+
+Hoisting
+It is a JavaScript's default behavior, which is used to move all the declarations
+at the top of the scope before the execution of code.
+List the new Array methods introduced in ES6?
+There are many array methods available in ES6, which are listed below:
+
+Array.of()
+Array.from()
+Array.prototype.copyWithin()
+Array.prototype.find()
+Array.prototype.findIndex()
+Array.prototype.entries()
+Array.prototype.keys()
+Array.prototype.values()
+Array.prototype.fill()
+
+
+What are the new String methods introduced in ES6?
+There are four string methods introduced in ES6 that are listed as follows:
+
+string.startsWith()
+string.endsWith()
+string.includes()
+string.repeat()
+
+Define Babel.
+Babel is one of the popular transpilers of JavaScript. It is mainly used for converting the ES6 plus code into the backward-compatible version of JavaScript that can be run by previous JavaScript engines.
+
+Define Webpack.
+It is an open-source JavaScript module bundler that takes modules with dependencies.
+ 
+A closure is a feature of JavaScript that allows inner functions to access their outer scope's variable.
+
+Strict mode convert bad syntax into real errors.
+ 
+LocalStorage
+LocalStorage is a data storage type of web storage. This allows the JavaScript sites and apps to store and access the data without any expiration date. This means that the data will always be persisted and will not expire. So, data stored in the browser will be available even after closing the browser window.
+ 
+Modules refer to small units of independent,   code and also act as the foundation of many JavaScript design patterns.
+ 
+ 
+ 
+HTML
+ 
+The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation.
+ 
+The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages.
+ 
+box-sizing property allows us to include the padding and border in an element's total width and height.
+ 
+Search engines such as Google use metadata from meta tags to understand additional information about the webpage. They can use this information for ranking purposes
+ 
+Breadcrumbs are a great way to show hierarchy-based information for a site.
+ 
+What is Web Accessibility. Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can: perceive, understand, navigate, and interact with the Web. contribute to the Web.
+ 
+flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+ 
+
+ 
+ 
+Virtual DOM is a blueprint of a RealDOM, whenever state value changes the virtualDOM render. Then the difference between the previous DOM representation and the new one is calculated. Once the calculations are done, the real DOM will be updated with only the things that have actually changed.
+ 
+What is JSX?
+Basically it just provides syntactic sugar for the React.createElement() function, giving us expressiveness of JavaScript along with HTML like template syntax.
+ 
+The React useState Hook allows us to track state in a function component. State generally refers to data or properties that need to be tracking in an application.
+
+The useState Hook can be used to keep track of strings, numbers, booleans, arrays, objects, and any combination of thes
+Props are used to store data that can be accessed by the children of a React component.
+
+Props are arguments passed into React components. Props are passed to components via HTML attributes. props stands for properties.
+
+The state is a built-in React object that is used to contain data or information about the component.
+
+Batching is when React groups multiple state updates into a single re-render for better performance.
+
+props get passed to the component (similar to function parameters) whereas state is managed within the component (similar to variables declared within a function).
+
+Leverage Browser Caching means storing static files of a website in visitor browser.
+
+
+StrictMode is a tool for highlighting potential problems in an application. Like Fragment , StrictMode does not render any visible UI. It activates additional checks and warnings for its descendants.
+
+Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don't work inside classes — they let you use React without classes. (We don't recommend rewriting your existing components overnight but you can start using Hooks in the new ones if you'd like.
+                                                                       
+useEffect is a hook in React that allows you to perform side effects in function components.There is no need for urban dictionary - basically any work outside of the component. Some examples of side effects are: subscriptions, fetching data, directly updating the DOM, event listeners, timers, etc.
+
+
+                                                                       
+                                                                       
+
+

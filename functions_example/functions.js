@@ -79,3 +79,21 @@ return newBooks
     }
 })
 console.log(allBooks)
+
+const employees = [
+    { name: "Alice", age: 28 },
+    { name: "Bob", age: 35 },
+    { name: "Charlie", age: 42 },
+    { name: "Diana", age: 30 }
+  ];
+
+//   > 30 
+
+
+let data = employees.filter((employee)=> {
+    if(employee.age > 30){
+        console.log(employee)
+        return employee
+    }
+})
+console.log(data)
